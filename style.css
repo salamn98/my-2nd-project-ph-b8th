@@ -1,0 +1,135 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.nav-container{
+    min-height:50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo-container{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo-container img{
+    width: 86px;
+    height:40px;
+    object-fit: cover;
+
+}
+.logo-container p{
+    font-size: 50px;
+    
+}
+.g-section{
+    color:#FF42A5;
+}
+.nav-items-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(12, 12, 12);
+}
+.nav-items-container .login-btn{
+    background-color: #E7E6E9;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+    
+}
+.text{
+    color: #ac68bd;
+}
+.btn{
+    display: inline-flex;
+    padding: 15px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    color: white;
+    border-radius: 25px;
+    border: none;
+}
+#btn1{
+    background-color: #FF42A5;
+}
+#btn2{
+    background-color: #4EC5F7;
+    
+}
+.banner-img{
+    min-width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-container{
+    min-height:50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+}
+.banner-title{
+    display: flex;
+    justify-content: center;
+    min-width: 50%;
+}
+.online-container{
+    display: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.online-title{
+    display: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.footer-containt{
+    display: center;
+    justify-content: space-between;
+    height:40vh;
+    text-align: center;
+    color: rgb(235, 229, 229);
+    background-position: center;
+    background-size: cover;
+    background-color: #0e0d0d;
+}
+.footer-logo{
+    display: flex;
+    gap:2%;
+    justify-content: center;
+    
+
+}
+.end-logo{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 50PX;
+}
+.unorder-list{
+    display: flex;
+    gap:5%;
+    text-decoration: none;
+    justify-content: center;
+
+}
